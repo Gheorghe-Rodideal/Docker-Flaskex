@@ -28,7 +28,7 @@
 ``` 
 git clone https://github.com/anfederico/Flaskex
 cd Flaskex
-https://github.com/Gheorghe-Rodideal/docker-flaskex.git
+git clone https://github.com/Gheorghe-Rodideal/docker-flaskex.git
 docker build --tag=example/flaskex .
 docker run -d -p 80:5000 IMAGE ID
 ```
