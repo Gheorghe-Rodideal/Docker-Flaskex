@@ -28,8 +28,9 @@
 ``` 
 git clone https://github.com/anfederico/Flaskex
 cd Flaskex
-pip install -r requirements.txt
-python app.py
+https://github.com/Gheorghe-Rodideal/docker-flaskex.git
+docker build --tag=example/flaskex .
+docker run -d -p 80:5000 IMAGE ID
 ```
 
 ## Contributing
